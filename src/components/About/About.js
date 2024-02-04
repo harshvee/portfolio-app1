@@ -7,8 +7,8 @@ import lwcdev from '../../assets/lwcdev.png';
 const About = () => {
   return (
     <section id ="skills">
-        <span className="aboutTitle">What I <span class="do">Do</span></span>
-        <span className="skillDesc">I am a skilled 5X Certified Salesforce Developer having more than 3 years experience in LWC, Apex and Digital Experience<span class="do">(Formarly Community Cloud).</span></span>
+        <span className="aboutTitle">What I <span className="do">Do</span></span>
+        <span className="skillDesc">I am a skilled 5X Certified Salesforce Developer having more than 3 years experience in LWC, Apex and Digital Experience<span className="do">(Formarly Community Cloud).</span></span>
         <div className="skillBars">
             <div className="skillBar">
                 <img src={admin} alt="dev1" className="skillBarImg" />

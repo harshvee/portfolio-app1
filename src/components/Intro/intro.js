@@ -11,7 +11,7 @@ const Intro = () => {
       <span className="hello">Hello,<br/></span>
       <span className="introText">I'm <span className="introName">Harsh</span><br/>Salesforce Developer</span>
       <p className="introPara">I create visually appealing UI using LWC and Apex</p>
-      <Link><button className="btn"><img src={hire} alt="Hire Me" class ="hireIcon"/>Hire Me</button></Link>
+      <Link><button className="btn"><img src={hire} alt="Hire Me" className ="hireIcon"/>Hire Me</button></Link>
       <img src = {mainPic} alt ="Profile" className="imgBg"/>
     </section>
   )

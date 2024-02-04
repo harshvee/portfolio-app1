@@ -1,0 +1,37 @@
+#works {
+    overflow: hidden;
+    width: 100vw;
+    max-width: 65rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align:center;
+    margin: 0 auto; 
+}
+
+.worksTitle {
+    margin: 1rem 0;
+    font-size: 3rem;
+
+}
+
+.worksDesc {
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+.worksImgs {
+    display: flex;
+    width: 100vw;
+    max-width: 65rem;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.worksImg {
+    height: 10rem;
+    width: 20rem;
+    margin: 0.5rem;
+}
